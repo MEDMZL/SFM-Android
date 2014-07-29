@@ -14,7 +14,7 @@ public class SplashScreen extends Activity {
 		setContentView(R.layout.activity_splash);
 		
 		// Splash screen timer
-	    int SPLASH_TIME_OUT = 3000;
+	    int SPLASH_TIME_OUT = 2000;
 	    
 		new Handler().postDelayed(new Runnable() {
 			 
